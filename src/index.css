@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Poppins-Black";
+    src: url(/fonts/Poppins-Black.woff) format("woff"),
+    url(/fonts/Poppins-Black.woff2) format("woff2");
+  
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Poppins-Regular";
+    src: url(/fonts/Poppins-Regular.woff) format("woff"),
+    url(/fonts/Poppins-Regular.woff2) format("woff2");
+  
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Poppins-Bold";
+    src: url(/fonts/Poppins-Bold.woff) format("woff"),
+    url(/fonts/Poppins-Bold.woff2) format("woff2");
+  
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Poppins-Medium";
+    src: url(/fonts/Poppins-Medium.woff) format("woff"),
+    url(/fonts/Poppins-Medium.woff2) format("woff2");
+  
+    font-display: swap;
+  }
+
+  @layer base
+  {
+      a
+      {
+        @apply  no-underline 
+      }
+      ul
+      {
+        @apply list-none
+      }
+      img
+      {
+        @apply block w-full h-auto
+      }
+
+      h1
+      {
+        @apply text-3xl mb-4
+      }
+      h2
+      {
+        @apply text-xl mb-4
+      }
+      h3
+      {
+        @apply text-lg mb-2
+      }
+      h4
+      {
+        @apply text-base mb-4
+      }
+      p
+      {
+        @apply mb-2  !leading-6 opacity-60
+      }
+  }
+  
+  @layer components
+  {
+    .btn
+    {
+        @apply bg-[#0B60B0] p-2
+    }
+  }
