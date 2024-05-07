@@ -79,6 +79,7 @@
   {
     .btn
     {
-        @apply bg-[#76ABAE] p-2 font-regular
+        @apply bg-[#76ABAE] p-2 font-regular transition-all
+        hover:bg-transparent border border-[#76ABAE] hover:text-[#76ABAE]
     }
   }
