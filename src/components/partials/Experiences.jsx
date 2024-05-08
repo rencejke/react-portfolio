@@ -6,7 +6,7 @@ AOS.init();
 
 const Experiences = () => {
   return (
-    <section className='experiences pb-12 '>
+    <section id='experiences' className='experiences pb-12 '>
     <div className="max-w-[700px] w-full mx-auto px-4 py-1">
       <h4 className='text-center font-thicker text-[2rem] mb-12'>Experiences</h4>
       <div className="wrapper grid grid-cols-3 gap-6">
