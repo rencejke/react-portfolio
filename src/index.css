@@ -34,8 +34,94 @@
     font-display: swap;
   }
 
-  @layer base
+  @layer base {
+     
+  body
   {
+   @apply bg-[#081b29]
+  }
+
+  .navbar a
+  {
+   @apply text-[#ededed] hover:text-[#00abf0]
+  }
+
+  .btn-container a
+  {
+    @apply relative inline-flex w-[150px] h-[100%] bg-[#00abf0]
+    border-2 border-solid border-[#00abf0] rounded-md text-[15px]
+    text-[#081b29] font-semibold justify-center items-center z-[1] overflow-hidden
+    transition-all
+  }
+
+  .btn-container a
+  {
+    @apply before:content-[''] before:absolute before:top-0 before:left-0 before:w-0 
+    before:h-[100%] before:bg-[#081b29] before:z-[-1] before:transition-all
+
+    hover:before:w-[100%] hover:text-[#00abf0]
+  }
+ .btn-container a:nth-child(2)
+  {
+     @apply bg-transparent text-[#00abf0]
+     hover:text-[#081b29]
+     before:bg-[#00abf0]
+  }
+  .socials ul li 
+  {
+    @apply bg-[#ededed] rounded-full p-2 cursor-pointer transition-all
+
+  } 
+  .socials ul li 
+  {
+    @apply hover:bg-[#00abf0]
+  }
+  .scroll-btn
+  {
+    @apply absolute h-[50px] w-[32px] border-[3px] border-solid
+    border-[#ededed] left-0 right-0 bottom-0 rounded-[48px] mx-auto mb-6
+  }
+  .scroll-btn::before
+  {
+    @apply absolute content-[''] mx-auto left-0 right-0 
+    h-[10px] w-[10px] bg-[#ededed] rounded-full animate-move-down
+  }
+  /* .scroll-btn::after
+  {
+    @apply absolute content-['SCROLL_DOWN'] w-[192px] block text-center 
+    left-[-67.2px]  bottom-[-40px] text-[20px] tracking-[3px] font-bold 
+  } */
+  .abt-img::before,.abt-img::after
+  {
+    @apply content-[''] absolute bg-[#081b29] z-[-1]
+  }
+  .abt-img::before
+  {
+    @apply bottom-[-64px] left-0  w-[65%] h-[112px] rounded-bl-[#081b29]
+  }
+  .panel
+  {
+    @apply hidden
+  }
+  .panel.active
+  {
+    @apply block
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+       
+       
+
       a
       {
         @apply  no-underline 
@@ -63,7 +149,7 @@
       }
       h4
       {
-        @apply text-base mb-4
+        @apply text-base mb-2
       }
       p
       {
@@ -71,25 +157,8 @@
       }
       .container
       {
-        @apply max-w-[1500px] w-full mx-auto px-4 py-1
+        @apply max-w-[2000px] w-[100%] mx-auto px-4 py-1
       }
   }
   
-  @layer components
-  {
-    .btn
-    {
-        @apply bg-[#76ABAE] p-2 font-regular transition-all
-        hover:bg-transparent border border-[#76ABAE] hover:text-[#76ABAE]
-    }
-
-    .header ul li 
-    {
-      @apply hover:text-[#76ABAE]
-    }
-
-    .active
-    {
-      @apply text-[#76ABAE]
-    }
-  }
+  

@@ -5,22 +5,16 @@ import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
   return (
-    <header className='header bg-[#31363F] py-6 font-regular'>
-    <div className="max-w-[1500px] w-full mx-auto px-4 py-1">
-    <div className="flex justify-between items-center ">
-        <span className='text-[1.4rem]'>Cla<span>rence</span></span>
-        
-        <ul className='flex items-center gap-7 text-white uppercase font-bold text-[15px]'>
-                        <li><Link to="/home">Home</Link></li>
-                        <li><HashLink  smooth to="#about">About</HashLink></li>
-                        <li><HashLink  smooth to="#experiences">Experiences</HashLink></li>
-                        <li><HashLink  smooth to="#portfolio">Portfolio</HashLink></li>
-                        <li><HashLink  smooth to="#services">Services</HashLink></li>
-                        <li><Link to="/contact">Contact</Link></li>
-        </ul>
-        <button className='btn px-4'><Link to="">Let's Talk</Link></button>
-    </div>
-    </div>
+    <header className='header fixed top-0 left-0 w-[100%] py-[20px] px-[10%]  bg-[#081b29]
+    flex justify-between items-center z-[300]'>
+        <Link className='logo text-[25px] text-[#ededed] font-semibold'>Clarence.</Link>
+        <nav className='navbar text-[18px] font-bold flex gap-6'>
+               <Link to="#">Home</Link>
+               <Link to="#">About</Link>
+               <Link to="#">Services</Link>
+               <Link to="#">Portfolio</Link>
+               <Link to="#">Contact</Link>
+        </nav>
     </header>
   )
 }

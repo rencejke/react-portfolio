@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 
 
@@ -13,23 +14,41 @@ const About = () => {
     link.download = 'resume_clarence.pdf';
     link.click();
   };
+
+  const [text] = useTypewriter({
+    words:['Designer', 'Developer'],
+    loop:{},
+    typeSpeed: 180,
+    delaySpeed: 200,
+  })
   
 
   return (
-    <div id='about' className='bg-[#222831]  md:pt-[12rem] pt-12'>
+    <div id='about' className='bg-[#0c1216] pt-16 px-12 pb-12'>
     <div className="container">
-    <div className='wrapper grid grid-cols-2 gap-5'>
+    <div className='wrapper flex gap-[90px] items-center'>
 
-      <div className='image'>
-      <img src="../../profile2.jpg" alt="" className='size-[80%] object-contain' data-aos="fade-right" data-aos-duration="1000"/>
+      <div className='left ml-[95px]'>
+      <small className='text-[16px] mb-12 text-[#00abf0]'>About Me</small>
+        <h3 className='text-[35px] mt-3 font-regular font-bold '>Web {text}<Cursor/></h3>
+    
+        <div className='abt-img w-[320px] bg-[#00abf0] px-6 mx-auto mt-8 rounded-md'>
+        <img src="../../profile1.png" alt="" className=''/>
+        </div>
       </div>
 
-      <div className='text mt-12 text-justify'>
-      <h4 className='text-[2rem] font-thicker mb-8' data-aos="fade-left" data-aos-duration="1000">About Me</h4>
-      <p className='w-[70%] text-[18px] font-regular' data-aos="fade-left" data-aos-delay="700" data-aos-duration="1000">I am a web developer, designer, and student at Laguna State Polytechnic University, pursuing a Bachelor of Science in Information Technology majoring in Web 
-      and Mobile Application Development in the Philippines. I am passionate about creating and designing websites. </p>
-      <p className='w-[70%] text-[18px] font-regular' data-aos="fade-left" data-aos-delay="1400" data-aos-duration="1000">I thrive on challenges and consistently seek opportunities to expand my knowledge. Currently, I am exploring Crypto, NFTs, DeFi, and the Metaverse</p>
-       <button className='btn mt-6' data-aos="fade-left" data-aos-delay="2100" data-aos-duration="1000" onClick={handleDownloadResume} ><Link>Download CV</Link></button>
+      <div className='right  text-justify max-w-[700px] mt-20'>
+       <div className='space-y-6'>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, eos. Sit eius necessitatibus, quaerat commodi obcaecati quod ab. 
+        Dolores animi inventore perspiciatis vitae libero 
+        illo voluptatibus quae placeat voluptatum recusandae.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, corporis inventore 
+          hic facere aperiam voluptates, eligendi dolorum maiores, voluptatibus 
+          odio eaque eum neque? Est excepturi dolorem ipsum natus, voluptates expedita.</p>
+       </div>
+             <div className="btn-container w-[345px] h-[50px] mt-6">
+             <Link><button onClick={handleDownloadResume}> Download CV</button></Link>
+             </div>
       </div>
     </div>
     </div>

@@ -24,7 +24,7 @@ const Home = () => {
             setHome(
                <Home />
             )
-            }, 3000)
+            }, 500)
 
         })
 
@@ -32,13 +32,13 @@ const Home = () => {
 <>
    
 
-           <div className='bg-[#222831] h-[100vh] relative'>
+           <div className='    h-[100vh] relative'>
             {
                 showImg ? (<div className='flex justify-center items-center mx-auto pt-[23rem]'>
                 
                 <img src="../../loading2.svg" className='size-[130px]' alt="" /> 
 
-                </div> ) : (   <div className='bg-[#222831] text-white'>
+                </div> ) : (   <div className='bg-[#081b29] text-white'>
     <div className={`banner h-[100dvh] relative isolate`}>
        
        <div className="backdrop  absolute top-0 legft-0 h-full w-full -z-10"></div>
@@ -51,8 +51,8 @@ const Home = () => {
       <Projects />
       <Services />
 
-     <Cta />
-     <Footer />  
+     {/* <Cta />
+     <Footer />   */}
     </div> )
      }
          
