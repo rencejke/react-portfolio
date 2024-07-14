@@ -10,6 +10,7 @@ import Services from '../partials/Services'
 import { Link } from 'react-router-dom'
 import Cta from '../partials/Cta'
 import { ImGift } from 'react-icons/im';
+import ScrollToTop from '../partials/ScrollToTop'
 
 
 
@@ -43,6 +44,7 @@ const Home = () => {
        
        <div className="backdrop  absolute top-0 legft-0 h-full w-full -z-10"></div>
         
+       
         <Header />
         <Banner />
        </div>
@@ -51,8 +53,9 @@ const Home = () => {
       <Projects />
       <Services />
 
-     {/* <Cta />
-     <Footer />   */}
+     <Cta />
+     <Footer />  
+     <ScrollToTop/>
     </div> )
      }
          

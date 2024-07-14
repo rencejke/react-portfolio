@@ -35,10 +35,14 @@
   }
 
   @layer base {
+
+  html {
+    @apply scroll-smooth
+  }
      
   body
   {
-   @apply bg-[#081b29]
+   @apply bg-[#081b29] dark:bg-[#ededed]
   }
 
   .navbar a
@@ -79,7 +83,7 @@
   .scroll-btn
   {
     @apply absolute h-[50px] w-[32px] border-[3px] border-solid
-    border-[#ededed] left-0 right-0 bottom-0 rounded-[48px] mx-auto mb-6
+    border-[#ededed] left-0 right-0 bottom-2 rounded-[48px] mx-auto mb-6
   }
   .scroll-btn::before
   {
@@ -99,29 +103,26 @@
   {
     @apply bottom-[-64px] left-0  w-[65%] h-[112px] rounded-bl-[#081b29]
   }
-  .panel
+ 
+  #progressTop
   {
-    @apply hidden
+    @apply fixed bottom-[20px] right-[10px] 
+    h-[70px] w-[70px] opacity-0 grid place-items-center
+    rounded-full z-[100] cursor-pointer shadow-md
   }
-  .panel.active
+  #progressTop-value
   {
-    @apply block
+    @apply  block h-[calc(100%-15px)] w-[calc(100%-15px)] bg-[#081b29]
+    rounded-full grid place-items-center text-[35px]
   }
-
-
-
-
-
-
-
-
-
-
-
-
-       
-       
-
+  .projects .tab-item:nth-child(even)
+  {
+    @apply flex-row-reverse
+  }
+  .logo-header::before
+  {
+    @apply content-[''] w-[20px] h-[20px] bg-[#00abf0] absolute z-[-1]  bottom-9 left-[142px]
+  }
       a
       {
         @apply  no-underline 
