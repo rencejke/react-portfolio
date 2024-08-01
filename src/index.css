@@ -44,7 +44,14 @@
   {
    @apply bg-[#081b29] dark:bg-[#ededed]
   }
-
+   .panel
+   {
+    @apply hidden;
+   }
+   .active
+   {
+    @apply block;
+   }
   .navbar a
   {
    @apply text-[#ededed] hover:text-[#00abf0]

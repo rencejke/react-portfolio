@@ -10,7 +10,7 @@ const Projects = () => {
       <div className="wrapper">
       
   <div className='max-w-[1000px] w-[100%] mx-auto mt-12'>
-          <div id="1" className="panel">
+          <div>
            
             <div className='tab-item flex lg:flex-row flex-col gap-10 bg-[#ededed]  p-6 rounded-md mb-5'>
               <div className='left w-[100%]'>
