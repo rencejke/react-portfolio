@@ -9,7 +9,7 @@ const Cta = () => {
     <h2 className='font-thick text-3xl'>Let's build something amazing together!</h2>
     <p className='text-[22px] text-white'>Contact me and let's build your   website today!</p>
     <div className="container btn-container w-[345px] h-[50px] mt-6">
-             <Link><button> Let's Talk</button></Link>
+             <Link to={'https://calendly.com/bonillaclarencejake/30-minutes-discovery-concsulation?month=2024-07'}><button> Let's Talk</button></Link>
              </div>
     </div>
    </section>

@@ -28,8 +28,8 @@ const Banner = () => {
             </p>
 
         <div className="btn-container flex w-[345px] h-[50px] lg:justify-between justify-around">
-            <Link><button> See my Work</button></Link>
-            <Link><button>Hire Me</button></Link>
+            <Link to={'https://github.com/rencejke'}><button> See my Work</button></Link>
+            <Link to={'https://calendly.com/bonillaclarencejake/30-minutes-discovery-concsulation?month=2024-07'}><button>Hire Me</button></Link>
         </div>
 
         <img src="../../profile1.png" className='absolute h-[896px] w-[700px] right-20 bottom-[3px] md:block hidden' alt="" />

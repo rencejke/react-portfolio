@@ -2,7 +2,9 @@ import React from 'react'
 import AOS from 'aos';
 
 // ..
-AOS.init();
+AOS.init({
+  once: true,
+});
 
 const Experiences = () => {
   return (
