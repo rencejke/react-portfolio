@@ -128,7 +128,7 @@
   }
   .logo-header::before
   {
-    @apply content-[''] w-[20px] h-[20px] bg-[#00abf0] absolute z-[-1]  bottom-9 left-[142px]
+    @apply content-[''] lg:w-[20px] w-[17px] h-[20px] bg-[#00abf0] absolute z-[-1]  bottom-9 left-[12px] lg:left-[8px] lg:top-[8px] top-[4px]
   }
       a
       {

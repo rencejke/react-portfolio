@@ -14,42 +14,30 @@ const Header = () => {
   return (
     <header className='header'>
        
-       <div className="wrapper container flex justify-between  pt-3">
+       <div className="wrapper container flex justify-between items-center  mt-4  relative">
 
         <div>
-         <div className='flex justify-between'>
-         <Link className='logo-header text-[25px] text-[#ededed] font-semibold'>Clarence.</Link>
-         <button className='block lg:invisible md:invisible text-[22px]' onClick={handleShowNav}><RiMenu2Line /></button>
-         </div>
+         <Link className='logo-header text-[22px] text-[#ededed] font-semibold mt-0 pt-0'>Clarence.</Link>
         </div>
-
-       <div>
-       <nav className={`${showNav ? "left-0" : "-left-full"}  fixed md:static top-0 left-0 w-full h-screen bg-black z-[9999] pt-20 px-6 pb-6 transition-all md:bg-transparent  md:pt-0 md:px-0 md:pb-0 md:h-auto md:flex  md:justify-center` }>
-        <ul className='md:flex md:flex-row md:gap-12 xs:flex xs:flex-col xs:gap-8 xs:text-[20px] cursor-pointer'>
+       <div> 
+     
+       <nav className={`${showNav ? "left-0" : "-left-full"}  navbar fixed lg:static md:static top-0 w-full h-screen bg-black z-[9999]
+         pt-20 px-6 pb-6 transition-all md:bg-transparent  md:pt-0 md:px-0 md:pb-0 md:h-auto md:flex  md:justify-center
+       ` }>
+        <ul className='md:flex md:flex-row md:items-center md:gap-12 flex flex-col gap-8 text-[20px] cursor-pointer'>
             <li><Link to="/home">Home</Link></li>
             <li><Link to="#">About</Link></li>
             <li><Link to="#">Services</Link></li>
             <li><Link to="/projects">Portfolio</Link></li> 
             <li><Link to="/contact">Contact</Link></li>
         </ul> 
+        <button className='absolute top-8 right-5 text-lg md:hidden' onClick={handleShowNav}><FaTimes/></button>
         </nav>
+
+        <button className='block lg:invisible md:invisible text-[22px]' onClick={handleShowNav}><RiMenu2Line /></button>
        </div>
-
-
         </div>
-
-       
-      
-     
-
-
-       
-
-
     </header>
-
-
-
   ) 
 
 
