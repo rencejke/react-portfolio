@@ -7,7 +7,7 @@ export default {
 
       screens: {
         
-        'xs': '414px',
+        'xs': '320px',
 
         'sm': '640px',
         // => @media (min-width: 640px) { ... }
