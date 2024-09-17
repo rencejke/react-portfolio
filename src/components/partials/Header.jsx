@@ -25,7 +25,7 @@ const Header = () => {
          pt-20 px-6 pb-6 transition-all md:bg-transparent  md:pt-0 md:px-0 md:pb-0 md:h-auto md:flex  md:justify-center
        ` }>
         <ul className='md:flex md:flex-row md:items-center md:gap-12 flex flex-col gap-8 text-[20px] cursor-pointer'>
-            <li><Link to="">Home</Link></li>
+            <li><Link to="/">Home</Link></li>
             <li><Link to="#">About</Link></li>
             <li><Link to="#">Services</Link></li>
             <li><Link to="/projects">Portfolio</Link></li> 

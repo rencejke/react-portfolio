@@ -34,9 +34,7 @@ const Home = () => {
    
 
            <div className='    h-[100vh] relative'>
-            {
-                showImg ? (<div className='flex justify-center items-center mx-auto pt-[23rem]'>
-                
+            { showImg ? (<div className='flex justify-center items-center mx-auto pt-[23rem]'>
                 <img src="../../loading2.svg" className='size-[130px]' alt="" /> 
 
                 </div> ) : (   <div className='bg-[#081b29] text-white'>

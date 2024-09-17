@@ -102,6 +102,13 @@
     @apply absolute content-['SCROLL_DOWN'] w-[192px] block text-center 
     left-[-67.2px]  bottom-[-40px] text-[20px] tracking-[3px] font-bold 
   } */
+
+  input, textarea
+  {
+    @apply py-0 px-[5px]
+  }
+
+
   .abt-img::before,.abt-img::after
   {
     @apply content-[''] absolute bg-[#081b29] z-[-1]
