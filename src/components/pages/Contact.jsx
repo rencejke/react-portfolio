@@ -12,12 +12,13 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, {
-        publicKey: 'YOUR_PUBLIC_KEY',
+      .sendForm('service_w3xn2uv', 'template_cjcdknj', form.current, {
+        publicKey: 'h4r89uXNSY-VRw5aq',
       })
       .then(
         () => {
           console.log('SUCCESS!');
+          e.target.reset();
         },
         (error) => {
           console.log('FAILED...', error.text);
@@ -46,14 +47,14 @@ const Contact = () => {
      <label htmlFor="Name">Name</label>
       <input type="text" className='w-[90%]  border border-solid
        border-black rounded-md h-[40px] 
-       ' placeholder='Enter Name'/>
+       ' placeholder='Enter Name' name='user_name'/>
      </div>
 
      <div className='flex flex-col gap-2 mb-2'>
      <label htmlFor="Email">Email</label>
       <input type="email" className='w-[90%]  
       border border-solid border-black rounded-md h-[40px]  
-      ' placeholder='Enter Email'/>
+      ' placeholder='Enter Email' name='user_email'/>
      </div>
 
      <div className='flex flex-col gap-2 mb-2'>
@@ -66,7 +67,7 @@ const Contact = () => {
      <div className='flex flex-col gap-2 mb-2'>
      <label htmlFor="Message">Message</label>
       <textarea className='w-[90%]  border border-solid border-black rounded-md  
-      h-[170px] resize-none  placeholder:pt-2' placeholder='Message'></textarea>
+      h-[170px] resize-none  placeholder:pt-2' placeholder='Message' name='message'></textarea>
      </div>
 
      <div className="btn-container w-[345px] h-[50px]  mt-6 ">

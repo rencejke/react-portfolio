@@ -10,15 +10,12 @@ const Footer = () => {
       <div className='flex lg:flex-row lg:gap-0 flex-col gap-8 justify-around p-12'>
         <div className="footer-item flex flex-col">
         <span className='logo text-[1.4rem]'>Clarence.</span> 
-        <p className='mt-3'>Lorem ipsum dolor sit amet.</p>
+        <p className='mt-3'>Frontend Developer</p>
   </div>
         <div className="footer-item  socials flex flex-col">
         <span className='text-[1.4rem]'>Socials</span>
         <ul className='flex gap-5  mt-3  text-[22px] text-[#081b29] items-center'>
-            <li><Link><FaFacebookF/></Link></li>
-            <li><Link><FaTwitter /></Link></li>
-            <li><Link><FaLinkedin /></Link></li>
-            <li><Link><FaInstagram /></Link></li>
+            <li><Link to={'https://www.linkedin.com/in/clarence-jake-bonilla-86a144311/'}><FaLinkedin /></Link></li>
             <li><Link><FaGithub /></Link></li>
           </ul>
 

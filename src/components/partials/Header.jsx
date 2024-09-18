@@ -26,8 +26,8 @@ const Header = () => {
        ` }>
         <ul className='md:flex md:flex-row md:items-center md:gap-12 flex flex-col gap-8 text-[20px] cursor-pointer'>
             <li><Link to="/">Home</Link></li>
-            <li><Link to="#">About</Link></li>
-            <li><Link to="#">Services</Link></li>
+            <li><HashLink smooth to="#about">About</HashLink></li>
+            <li><HashLink smooth to="#services">Services</HashLink></li>
             <li><Link to="/projects">Portfolio</Link></li> 
             <li><Link to="/contact">Contact</Link></li>
         </ul> 

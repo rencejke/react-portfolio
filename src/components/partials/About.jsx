@@ -24,7 +24,7 @@ const About = () => {
   
 
   return (
-    <div id='about' className='bg-[#0c1216] pt-16 px-12 pb-12 border-2 border-red-500'>
+    <div id='about' className='bg-[#0c1216] pt-16 px-12 pb-12 mt-1'>
     <div className="container">
     <div className='flex items-center justify-center'>
     <div className='wrapper flex lg:flex-row lg:gap-[90px] gap-[40px] items-center flex-col'>

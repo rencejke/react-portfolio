@@ -42,7 +42,7 @@
      
   body
   {
-   @apply bg-[#081b29] dark:bg-[#ededed]
+   @apply bg-[#081b29] dark:bg-[#ededed] scroll-smooth
   }
    .panel
    {
