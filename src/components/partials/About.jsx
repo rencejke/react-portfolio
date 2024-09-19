@@ -34,7 +34,7 @@ const About = () => {
   <h3 className='text-[35px] mt-3 font-regular font-bold '>Web {text}<Cursor/></h3>
 
   <div className='abt-img w-[320px] bg-[#00abf0] px-6 mx-auto mt-8 rounded-md'>
-  <img src="../../profile1.png" alt="" className=''/>
+  <img src="/profile1.png" alt="" className=''/>
   </div>
 </div>
 

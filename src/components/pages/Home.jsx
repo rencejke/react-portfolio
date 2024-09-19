@@ -35,7 +35,7 @@ const Home = () => {
 
            <div className='    h-[100vh] relative'>
             { showImg ? (<div className='flex justify-center items-center mx-auto pt-[23rem]'>
-                <img src="../../loading2.svg" className='size-[130px]' alt="" /> 
+                <img src="/loading2.svg" className='size-[130px]' alt="" /> 
 
                 </div> ) : (   <div className='bg-[#081b29] text-white'>
     <div className={`banner h-[100dvh] relative isolate`}>
