@@ -32,7 +32,7 @@ const Banner = () => {
             <Link to={'https://calendly.com/bonillaclarencejake/30-minutes-discovery-concsulation?month=2024-07'}><button>Hire Me</button></Link>
         </div>
 
-        <img src="../profile1.png" className='absolute h-[896px] w-[700px] right-20 bottom-[3px] md:block hidden' alt="" />
+        <img src='./profile1.png' className='absolute h-[896px] w-[700px] right-20 bottom-[3px] md:block hidden' alt="" />
         
         {/* <div className="socials bg-[#0c263b] lg:block hidden max-w-[300px] w-[300px] py-3  px-6 rounded-md absolute  lg:right-10 lg:bottom-16 bottom-[115px] xs:bottom-[70px] right-0">
           <ul className='flex gap-5  text-[22px] text-[#081b29] items-center'>
