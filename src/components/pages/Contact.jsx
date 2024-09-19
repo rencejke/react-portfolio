@@ -48,31 +48,25 @@ const Contact = () => {
      <label htmlFor="Name">Name</label>
       <input type="text" className='w-[90%]  border border-solid
        border-black rounded-md h-[40px] 
-       ' placeholder='Enter Name' name='user_name'/>
+       ' placeholder='Enter Name' name='user_name' required/>
      </div>
 
      <div className='flex flex-col gap-2 mb-2'>
      <label htmlFor="Email">Email</label>
       <input type="email" className='w-[90%]  
       border border-solid border-black rounded-md h-[40px]  
-      ' placeholder='Enter Email' name='user_email'/>
+      ' placeholder='Enter Email' name='user_email' required/>
      </div>
 
-     <div className='flex flex-col gap-2 mb-2'>
-     <label htmlFor="Subject">Subject</label>
-      <input type="text" 
-      className='w-[90%] 
-      border border-solid border-black rounded-md  h-[40px] '  placeholder='Enter Subject'/>
-     </div>
 
      <div className='flex flex-col gap-2 mb-2'>
      <label htmlFor="Message">Message</label>
       <textarea className='w-[90%]  border border-solid border-black rounded-md  
-      h-[170px] resize-none  placeholder:pt-2' placeholder='Message' name='message'></textarea>
+      h-[170px] resize-none  placeholder:pt-2' placeholder='Message' name='message' required></textarea>
      </div>
 
      <div className="btn-container w-[345px] h-[50px]  mt-6 ">
-             <Link><button type='submit'>Submit</button></Link>
+             <button type='submit'>Submit</button>
              </div>
      </form>
 
