@@ -60,7 +60,7 @@ const Services = () => {
 
          <div className='card-item rounded-lg flex lg:flex-row flex-col gap-10 items-center justify-center bg-[#0c1216] py-9 px-8'>
          <div className='bg-[#111e27] p-6 rounded-full lg:block hidden'>
-         <img src="../../../services/s4.png" alt="" />
+         <img src="./services/s4.png" alt="" />
          </div>
          <div>
           <h4>Virtual Assistant</h4>

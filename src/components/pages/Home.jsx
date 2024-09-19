@@ -7,11 +7,8 @@ import About from '../partials/About'
 import Banner from '../partials/Banner'
 import Projects from '../partials/Projects'
 import Services from '../partials/Services'
-import { Link } from 'react-router-dom'
 import Cta from '../partials/Cta'
-import { ImGift } from 'react-icons/im';
 import ScrollToTop from '../partials/ScrollToTop'
-
 
 
 const Home = () => {
@@ -35,7 +32,7 @@ const Home = () => {
 
            <div className='    h-[100vh] relative'>
             { showImg ? (<div className='flex justify-center items-center mx-auto pt-[23rem]'>
-                <img src={`${process.env.PUBLIC_URL}/loading2.svg`} className='size-[130px]' alt="" /> 
+                <img src={import.meta.env.BASE_URL + './loading2.svg'} className='size-[130px]' alt="" /> 
 
                 </div> ) : (   <div className='bg-[#081b29] text-white'>
     <div className={`banner h-[100dvh] relative isolate`}>
