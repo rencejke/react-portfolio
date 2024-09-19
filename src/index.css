@@ -78,6 +78,28 @@
      hover:text-[#081b29]
      before:bg-[#00abf0]
   }
+
+  .btn-container button
+  {
+    @apply relative inline-flex w-[150px] h-[100%] bg-[#00abf0]
+    border-2 border-solid border-[#00abf0] rounded-md text-[15px]
+    text-[#081b29] font-semibold justify-center items-center z-[1] overflow-hidden
+    transition-all
+  }
+
+  .btn-container button
+  {
+    @apply before:content-[''] before:absolute before:top-0 before:left-0 before:w-0 
+    before:h-[100%] before:bg-[#081b29] before:z-[-1] before:transition-all
+
+    hover:before:w-[100%] hover:text-[#00abf0]
+  }
+ .btn-container button:nth-child(2)
+  {
+     @apply bg-transparent text-[#00abf0]
+     hover:text-[#081b29]
+     before:bg-[#00abf0]
+  }
   .socials ul li 
   {
     @apply bg-[#ededed] rounded-full p-2 cursor-pointer transition-all

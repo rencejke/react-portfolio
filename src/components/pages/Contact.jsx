@@ -66,7 +66,10 @@ const Contact = () => {
      </div>
 
      <div className="btn-container w-[345px] h-[50px]  mt-6 ">
-             <button type='submit'>Submit</button>
+             <button type='submit' className='relative inline-flex w-[150px] h-[100%] bg-[#00abf0]
+    border-2 border-solid border-[#00abf0] rounded-md text-[15px]
+    text-[#081b29] font-semibold justify-center items-center z-[1] overflow-hidden
+    transition-all'>Submit</button>
              </div>
      </form>
 
