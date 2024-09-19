@@ -10,7 +10,7 @@ function App() {
    <Router>
         <Routes>
         <Route path="/spin" element={<SpinLoader />} />
-        <Route path="/react-deployment/" element={<Home />} />
+        <Route path="/react-portfolio/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<ProjectsPage />} />
 
