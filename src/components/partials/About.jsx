@@ -10,11 +10,10 @@ const About = () => {
   //download resume
   const handleDownloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/resume/Bonilla_Clarence_Jake_CV.pdf';
+    link.href = '/react-portfolio/resume/Bonilla_Clarence_Jake_CV.pdf';
     link.download = 'Bonilla_Clarence_Jake_CV.pdf';
     link.click();
   };
-
   const [text] = useTypewriter({
     words:['Designer', 'Developer'],
     loop:{},

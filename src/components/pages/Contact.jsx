@@ -36,7 +36,8 @@ const Contact = () => {
       
     <div className="left bg-[#081b29] px-12 pt-12  hidden lg:block">
       <h4 className='text-[25px] mb-5 font-bold'>Let's Get in Touch</h4>
-    <img src="../../contact-1.png" alt="" className='size-[65%] object-contain mx-auto  mt-20'/>
+    <img src={`${import.meta.env.BASE_URL}contact-1.png`} alt="" className='size-[65%] object-contain mx-auto  mt-20'/>
+    
     </div>
 
     <div className="right bg-[#ededed] text-[#0c1216] px-12 pt-12 lg:pb-0 pb-12 lg:rounded-none rounded-sm ">
