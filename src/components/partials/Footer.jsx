@@ -16,7 +16,7 @@ const Footer = () => {
         <span className='text-[1.4rem]'>Socials</span>
         <ul className='flex gap-5  mt-3  text-[22px] text-[#081b29] items-center'>
             <li><Link to={'https://www.linkedin.com/in/clarence-jake-bonilla-86a144311/'}><FaLinkedin /></Link></li>
-            <li><Link><FaGithub /></Link></li>
+            <li><Link to={'https://github.com/rencejke'}><FaGithub /></Link></li>
           </ul>
 
         </div>

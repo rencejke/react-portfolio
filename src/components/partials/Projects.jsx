@@ -14,7 +14,7 @@ const Projects = () => {
            
             <div className='tab-item flex lg:flex-row flex-col gap-10 bg-[#ededed]  p-6 rounded-md mb-5'>
               <div className='left w-[100%]'>
-              <img src="public/projectImg/math-alino.jpg" alt="" className='w-[450px] h-[230px] rounded-xl object-cover'/>
+              <img src="./projectImg/math-alino.jpg" alt="" className='w-[450px] h-[230px] rounded-xl object-cover'/>
               
               </div>
   

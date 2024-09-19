@@ -10,8 +10,8 @@ const About = () => {
   //download resume
   const handleDownloadResume = () => {
     const link = document.createElement('a');
-    link.href = '../../resume/resume_clarence.pdf';
-    link.download = 'resume_clarence.pdf';
+    link.href = '../../resume/Bonilla_Clarence_Jake_CV.pdf';
+    link.download = 'Bonilla_Clarence_Jake_CV.pdf';
     link.click();
   };
 

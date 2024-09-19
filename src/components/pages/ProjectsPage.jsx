@@ -38,7 +38,7 @@ const ProjectsPage = () => {
          
        <div className='tab-item flex flex-col gap-10 lg:flex-row  bg-[#ededed] dark:bg-[#0c1216] p-6 rounded-md mb-5'>
       <div className='left max-w-[320px]'>
-      <img src="public/projectImg/collab-techida.png" alt="" className='w-[450px] h-[230px] rounded-xl object-cover'/>
+      <img src="./projectImg/collab-techida.png" alt="" className='w-[450px] h-[230px] rounded-xl object-cover'/>
       </div>
 
       <div className='right text-[#081b29] max-w-[600px]x'>
@@ -72,7 +72,7 @@ const ProjectsPage = () => {
        <div id="1" className={`${checkActive(1, "active")} panel`}>  
        <div className='tab-item flex flex-col gap-10 lg:flex-row   bg-[#ededed] dark:bg-[#0c1216] p-6 rounded-md mb-5'>
        <div className='left max-w-[320px]'>
-       <img src="public/projectImg/faqs.png" alt="" className='w-[450px] h-[230px] rounded-xl object-cover'/>
+       <img src="./projectImg/faqs.png" alt="" className='w-[450px] h-[230px] rounded-xl object-cover'/>
       </div>
 
            <div className='right text-[#081b29] max-w-[600px]'>
@@ -101,7 +101,7 @@ const ProjectsPage = () => {
        <div id="1" className={`${checkActive(1, "active")} panel`}>  
        <div className='tab-item flex flex-col gap-10 lg:flex-row   bg-[#ededed] dark:bg-[#0c1216] p-6 rounded-md mb-5'>
        <div className='left max-w-[320px]'>
-       <img src="public/projectImg/frontline-web.png" alt="" className='w-[450px] h-[230px] rounded-xl object-cover'/>
+       <img src="./projectImg/frontline-web.png" alt="" className='w-[450px] h-[230px] rounded-xl object-cover'/>
       </div>
 
            <div className='right text-[#081b29] max-w-[600px]'>
@@ -137,7 +137,7 @@ const ProjectsPage = () => {
        <div id="1" className={`${checkActive(1, "active")} panel`}>  
        <div className='tab-item flex flex-col gap-10 lg:flex-row  bg-[#ededed] dark:bg-[#0c1216] p-6 rounded-md mb-5'>
        <div className='left max-w-[320px]'>
-       <img src="public/projectImg/insights.png" alt="" className='w-[450px] h-[230px] rounded-xl object-cover'/>
+       <img src="./projectImg/insights.png" alt="" className='w-[450px] h-[230px] rounded-xl object-cover'/>
       </div>
 
            <div className='right text-[#081b29] max-w-[600px]'>
@@ -170,7 +170,7 @@ const ProjectsPage = () => {
        <div id="1" className={`${checkActive(1, "active")} panel`}>  
        <div className='tab-item flex flex-col gap-10 lg:flex-row  bg-[#ededed] dark:bg-[#0c1216] p-6 rounded-md mb-5'>
        <div className='left max-w-[320px]'>
-       <img src="public/projectImg/lms.png" alt="" className='w-[450px] h-[230px] rounded-xl object-cover'/>
+       <img src="./projectImg/lms.png" alt="" className='w-[450px] h-[230px] rounded-xl object-cover'/>
       </div>
 
            <div className='right text-[#081b29] max-w-[600px]'>
@@ -203,7 +203,7 @@ const ProjectsPage = () => {
        <div id="1" className={`${checkActive(1, "active")} panel`}>  
        <div className='tab-item flex flex-col gap-10 lg:flex-row bg-[#ededed] dark:bg-[#0c1216] p-6 rounded-md mb-5'>
        <div className='left max-w-[320px]'>
-       <img src="public/projectImg/michi-ramen.png" alt="" className='w-[450px] h-[230px] rounded-xl object-cover'/>
+       <img src="./projectImg/michi-ramen.png" alt="" className='w-[450px] h-[230px] rounded-xl object-cover'/>
       </div>
 
            <div className='right text-[#081b29] max-w-[600px]'>
@@ -235,7 +235,7 @@ const ProjectsPage = () => {
        <div id="1" className={`${checkActive(1, "active")} panel`}>  
        <div className='tab-item flex flex-col gap-10 lg:flex-row bg-[#ededed] dark:bg-[#0c1216] p-6 rounded-md mb-5'>
        <div className='left max-w-[320px]'>
-       <img src="public/projectImg/onlineshop.png" alt="" className='w-[450px] h-[230px] rounded-xl object-cover'/>
+       <img src="./projectImg/onlineshop.png" alt="" className='w-[450px] h-[230px] rounded-xl object-cover'/>
       </div>
 
            <div className='right text-[#081b29] max-w-[600px]'>
@@ -268,7 +268,7 @@ const ProjectsPage = () => {
        <div id="1" className={`${checkActive(1, "active")} panel`}>  
        <div className='tab-item flex flex-col gap-10 lg:flex-row bg-[#ededed] dark:bg-[#0c1216] p-6 rounded-md mb-5'>
        <div className='left max-w-[320px]'>
-       <img src="public/projectImg/react-netflix.png" alt="" className='w-[450px] h-[230px] rounded-xl object-cover'/>
+       <img src="./projectImg/react-netflix.png" alt="" className='w-[450px] h-[230px] rounded-xl object-cover'/>
       </div>
 
            <div className='right text-[#081b29] max-w-[600px]'>
@@ -302,7 +302,7 @@ const ProjectsPage = () => {
        <div id="1" className={`${checkActive(1, "active")} panel`}>  
        <div className='tab-item flex flex-col gap-10 lg:flex-row bg-[#ededed] dark:bg-[#0c1216] p-6 rounded-md mb-5'>
        <div className='left max-w-[320px]'>
-       <img src="public/projectImg/react-youtube.png" alt="" className='w-[450px] h-[230px] rounded-xl object-cover'/>
+       <img src="./projectImg/react-youtube.png" alt="" className='w-[450px] h-[230px] rounded-xl object-cover'/>
       </div>
 
            <div className='right text-[#081b29] max-w-[600px]'>
@@ -336,7 +336,7 @@ const ProjectsPage = () => {
        <div id="2" className={`${checkActive(2, "active")} panel`}>  
        <div className='tab-item flex flex-col gap-10 lg:flex-row bg-[#ededed] dark:bg-[#0c1216] p-6 rounded-md mb-5'>
        <div className='left max-w-[320px]'>
-       <img src="public/projectImg/math-alino.jpg" alt="" className='w-[450px] h-[230px] rounded-xl object-cover'/>
+       <img src="./projectImg/math-alino.jpg" alt="" className='w-[450px] h-[230px] rounded-xl object-cover'/>
       </div>
 
            <div className='right text-[#081b29] max-w-[600px]'>

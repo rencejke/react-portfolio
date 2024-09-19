@@ -59,6 +59,22 @@ const Experiences = () => {
           data-aos="fade-left"  data-aos-duration="500">
           <img src="./experiences/git.png" alt="" className='size-[50px] lg:size-[90px]'/>
         </div>
+
+        <div className="item bg-[#31363F]/50 transition-all hover:bg-[#00abf0]  mx-auto lg:p-12 p-4 rounded-md mb-3"
+          data-aos="fade-right"  data-aos-duration="500">
+          <img src="./experiences/php.png" alt="" className='size-[50px] lg:size-[90px] object-contain'/>
+        </div>
+
+        <div className="item bg-[#31363F]/50 transition-all hover:bg-[#00abf0]  mx-auto lg:p-12 p-4 rounded-md mb-3"
+          data-aos="fade-up"  data-aos-duration="500">
+          <img src="./experiences/js.png" alt="" className='size-[50px] lg:size-[90px] object-contain'/>
+        </div>
+
+        <div className="item bg-[#31363F]/50 transition-all hover:bg-[#00abf0]  mx-auto lg:p-12 p-4 rounded-md mb-3"
+          data-aos="fade-left"  data-aos-duration="500">
+          <img src="./experiences/csharp.png" alt="" className='size-[50px] lg:size-[90px]'/>
+        </div>
+        
         
       </div>
     </div>
